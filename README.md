@@ -1,7 +1,7 @@
 # Tuni-Git
 for git course
 
-Muita ennen työn tekeminen "git checkout" oikein haaraan
+Muista ennen työn tekeminen "git checkout" oikein haaraan
 
 Ennen aloitus:
 	1.
