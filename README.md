@@ -1,9 +1,7 @@
-# Tuni-Git
-##for git course
+# Git
+## Muista ennen työn tekeminen "git checkout" oikein haaraan
 
-Muista ennen työn tekeminen "git checkout" oikein haaraan
-
-Ennen aloitus:  
+## Ennen aloitus:  
 		1.  
 		- `git checkout junyuan`  
 		- `git fetch origin`  
@@ -12,12 +10,12 @@ Ennen aloitus:
 		- `git checkout junyuan`  
 		- `git pull origin master`  
 
-Työn teko:  
+## Työn teko:  
 		......  
 
-Muista päivittää oma niminen haara:  
+## Muista päivittää oma niminen haara: 
 		-`git push origin junyuan`/`git push origin HEAD`  
 
-Kun työ on tehnyt, päivittää etätietovarastoon:  
+## Kun työ on tehty, päivitetään etätietovarastoon:  
 		-`git push <etätietovaraston nimi> <paikallinen haara>:<etätietovaraston haara>`  
 		esim. `git push origin junyuan:master`, paivittaa muutokset junyuan:n haarasta "masteriin"<br>  
