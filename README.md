@@ -9,7 +9,7 @@
 		- `git pull origin master`  
 **Työn teko:**  
 		......  
-**Muista päivittää oma niminen haara:** 
+**Muista päivittää oma niminen haara:**  
 		-`git push origin junyuan`/`git push origin HEAD`  
 **Kun työ on tehty, päivitetään etätietovarastoon:**  
 		-`git push <etätietovaraston nimi> <paikallinen haara>:<etätietovaraston haara>`  
