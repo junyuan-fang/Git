@@ -4,12 +4,12 @@ for git course
 Muista ennen työn tekeminen "git checkout" oikein haaraan
 
 Ennen aloitus:
-		1.-git checkout junyuan
-		-git fetch origin
-		-git merge origin/master
+		1.-git checkout junyuan，<br>
+		-git fetch origin，<br>
+		-git merge origin/master，<br>
 		2.(tai)
-		-git checkout junyuan
-		-git pull origin master
+		-git checkout junyuan，<br>
+		-git pull origin master，<br>
 
 Työn teko:
 		......
