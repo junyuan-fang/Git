@@ -30,9 +30,9 @@ modify files. delete "<<<<<<<" and "======="
 5. Add and commit changes in feature/create-awesome  
 6. Push your changes in feature/create-awesome  
 &emsp;&emsp;- `git push origin feature/create-awesome:feature/create-awesome`  
-  or  
+    or  
 &emsp;&emsp;- ` git push -u origin HEAD`  
-  or  
+    or  
 &emsp;&emsp;- `git push --set-upstream origin feature/create-awesome`  
 &emsp;&emsp;- `git push origin HEAD`
 ..  
