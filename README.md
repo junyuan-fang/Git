@@ -20,8 +20,8 @@
 1.Add a new remote repository for your repository https://course-gitlab.tuni.fi/git-course/intermediate-branches.git  
 &emsp;&emsp;- `git remote add  https://course-gitlab.tuni.fi/git-course/intermediate-branches.git`
 2.Fetch the history from the remote repository and merge it to yours. You might have to use --allow-unrelated-histories flag  
-&emsp;&emsp;- `git fetch Intermediate`
-&emsp;&emsp;- `git merge --allow-unrelated-histories Intermediate/master`
+&emsp;&emsp;- `git fetch Intermediate`  
+&emsp;&emsp;- `git merge --allow-unrelated-histories Intermediate/master`  
 modify files. delete "<<<<<<<" and "======="
 
 3.Create a new branch feature/create-awesome from master branch  
@@ -29,11 +29,11 @@ modify files. delete "<<<<<<<" and "======="
 4.In branch feature/create-awesome add a following line to file hello_world.py    "print("Hello from feature")"  
 5.Add and commit changes in feature/create-awesome  
 6.Push your changes in feature/create-awesome  
-&emsp;&emsp;- `git push origin feature/create-awesome:feature/create-awesome`
+&emsp;&emsp;- `git push origin feature/create-awesome:feature/create-awesome`  
 or  
-&emsp;&emsp;- ` git push -u origin HEAD`
+&emsp;&emsp;- ` git push -u origin HEAD`  
 or  
-&emsp;&emsp;- `git push --set-upstream origin feature/create-awesome`
+&emsp;&emsp;- `git push --set-upstream origin feature/create-awesome`  
 &emsp;&emsp;- `git push origin HEAD`
 ..  
 .  
