@@ -1,5 +1,9 @@
 # Git 
 ###### Muista ennen työn tekeminen "git checkout" oikein haaraan
+**Branches:**  
+&emsp;&emsp;- `git checkout -b <branch> <remote branch>`= `git branch <branch> <remote branch>` + `git checkout <remote branch>`  
+&emsp;&emsp;- `git checkout --track <remote branch>` Creates a new branch from the specified branch. Moves HEAD to the new branch. New branch is set to track remote branch.  
+
 **Submodule:**  
 &emsp;&emsp;- `git submodule add <url> <path>`：Adding submodules  
 Deleting submodules：  
