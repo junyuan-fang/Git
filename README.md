@@ -1,6 +1,23 @@
 # Git 
 ###### Muista ennen työn tekeminen "git checkout" oikein haaraan
-
+**Submodule:**  
+&emsp;&emsp;- `git submodule add <url> <path>`：Adding submodules  
+Deleting submodules：  
+1.Delete submodule from .gitmodules  
+2.Delete submodule from .git/config  
+3.Remove submodule folder using git rm  
+4.Create a commit from the changes  
+  
+Cloning a project that contains submodules
+&emsp;&emsp;- `git clone --recursive-submodules <repository>`  
+or 
+&emsp;&emsp;- `git clone <repository>` 
+&emsp;&emsp;- `cd <repository>` 
+&emsp;&emsp;- `git submodule update --init --recursive`  
+  
+Updating submodule  
+&emsp;&emsp;- `git submodule update --remote <submodule name>'  
+  
 **回退:**  
 &emsp;&emsp;- `git reset –-soft`：回退到某个版本，只回退了commit的信息，不会恢复到index file一级。如果还要提交，直接commit即可；   
 &emsp;&emsp;- `git reset -–hard`：：彻底回退到某个版本，本地的源码也会变为上一个版本的内容，撤销的commit中所包含的更改被冲掉；   
