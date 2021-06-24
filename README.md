@@ -1,6 +1,6 @@
 # Git 
 ###### Muista ennen työn tekeminen "git checkout" oikein haaraan
-**git log:**
+**git log:**  
 -n 行数 （多显示行数，自定义）   
 --date='2021-06-24'  
 -S "字符串" （搜索文件内的字符串）  
