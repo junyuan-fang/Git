@@ -4,7 +4,7 @@
 -n 行数 （多显示行数，自定义）   
 --date='2021-06-24'  
 -S "字符串" （搜索文件内的字符串）  
--p <path>/<commit>
+-p `<path>/<commit>` 能够显示commit的详细信息，类似于这个commit 对哪些文件进行了更改。。。  
 
 **Branches:**  
 &emsp;&emsp;- `git checkout -b <branch> <remote branch>`= `git branch <branch> <remote branch>` + `git checkout <remote branch>`  
