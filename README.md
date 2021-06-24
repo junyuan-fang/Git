@@ -8,10 +8,10 @@ Deleting submodules：
 3.Remove submodule folder using git rm  
 4.Create a commit from the changes  
   
-Cloning a project that contains submodules
+Cloning a project that contains submodules  
 &emsp;&emsp;- `git clone --recursive-submodules <repository>`  
-or 
-&emsp;&emsp;- `git clone <repository>` 
+or  
+&emsp;&emsp;- `git clone <repository>`  
 &emsp;&emsp;- `cd <repository>` 
 &emsp;&emsp;- `git submodule update --init --recursive`  
   
