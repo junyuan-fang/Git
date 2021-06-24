@@ -16,7 +16,7 @@ or
 &emsp;&emsp;- `git submodule update --init --recursive`  
   
 Updating submodule  
-&emsp;&emsp;- `git submodule update --remote <submodule name>'  
+&emsp;&emsp;- `git submodule update --remote <submodule name>`  
   
 **回退:**  
 &emsp;&emsp;- `git reset –-soft`：回退到某个版本，只回退了commit的信息，不会恢复到index file一级。如果还要提交，直接commit即可；   
