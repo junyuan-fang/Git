@@ -77,7 +77,7 @@ modify files. delete "<<<<<<<" and "======="
 * 1. `Go to directory files located in`
   2. `rm -rf .git .github`
   3. `git init`
-  4. `git add remote [link]`
+  4. `git remote add origin [link]`
   5. `git checkout -b new_branch_name`
   6. `git add .`
   7. `git commit -m"Innitial commit"`
