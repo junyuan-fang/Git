@@ -81,6 +81,6 @@ modify files. delete "<<<<<<<" and "======="
   5. `git checkout -b new_branch_name`
   6. `git add .`
   7. `git commit -m"Innitial commit"`
-  8. `git push -u [branch name]`
+  8. `git push -u origin [branch name]`
 .  
 .  
