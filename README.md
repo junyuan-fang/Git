@@ -72,6 +72,15 @@ modify files. delete "<<<<<<<" and "======="
     or  
   * `git push --set-upstream origin feature/create-awesome`  
   * `git push origin HEAD`
-..  
+
+**Push local directory to remote as a new branch:** 
+* 1. Go to directory files located in
+  2. rem -rf .git .github
+  3. git init
+  4. git add remote [link]
+  5. git checkout -b new_branch_name
+  6. git add .
+  7. git commit -m"Innitial commit"
+  8. git push -u [branch name]
 .  
 .  
